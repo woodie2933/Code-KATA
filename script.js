@@ -90,3 +90,13 @@ function solution(N) {
   }
   return sum;
 }
+
+// 9. for문을 활용한 풀이
+function solution(n) {
+  let answer = 0;
+  let m = String(n);
+  for (let i = 0; i < m.length; i++) {
+    answer += parseInt(m[i]);
+  }
+  return answer;
+}
